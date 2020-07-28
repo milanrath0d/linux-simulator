@@ -1,21 +1,22 @@
-package org.milan.shell.util;
+package org.milan.util;
 
-import org.milan.shell.directory.DirectoryNode;
+import org.milan.LinuxSimulator;
+import org.milan.bean.DirectoryNode;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * Utility class to store directories related data which can be used in {@link org.milan.shell.LinuxSimulater}
+ * Utility class to store directories related data which can be used in {@link LinuxSimulator}
  *
  * @author Milan Rathod
  */
-public final class DirectoryUtils {
+public final class DirectoryUtil {
 
     private static DirectoryNode<String> root = null;
 
     private static DirectoryNode<String> currentDirectory = null;
 
-    private DirectoryUtils() {
+    private DirectoryUtil() {
 
     }
 

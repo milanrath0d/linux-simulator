@@ -1,1 +1,1 @@
-# Linux-Simulater
+# Linux Simulator

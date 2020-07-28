@@ -1,4 +1,4 @@
-package org.milan.shell.directory;
+package org.milan.bean;
 
 import java.util.LinkedList;
 import java.util.List;
