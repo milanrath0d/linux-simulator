@@ -1,4 +1,4 @@
-package org.milan.shell;
+package org.milan;
 
 import static org.junit.Assert.assertTrue;
 

@@ -1,17 +1,16 @@
-package org.milan.shell;
+package org.milan;
 
-import org.milan.shell.util.DirectoryUtils;
+import org.milan.util.DirectoryUtil;
 import org.springframework.shell.Bootstrap;
 
 import java.io.IOException;
 
 /**
- * Hello world!
+ * Startup class
  */
 public class Application {
     public static void main(String[] args) throws IOException {
-        DirectoryUtils.initialize();
+        DirectoryUtil.initialize();
         Bootstrap.main(args);
-
     }
 }

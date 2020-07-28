@@ -1,4 +1,4 @@
-package org.milan.shell.providers;
+package org.milan.provider;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
